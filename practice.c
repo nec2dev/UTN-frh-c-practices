@@ -1,29 +1,41 @@
 //Es lo mismo A = B que B = A?
 
+#include <stdio.h>
+int main() {
+
 //Evaluar el siguiente conjunto de asignaciones:
+int A, B, C, D, E, F;
 
-int   A , B , C , D , E , F ;
+A = 5;
+printf("A: %i", A);
+printf("\n");
 
-A = 5 ;
-printf(A);
+B = 3;
+printf("B: %i", B);
+printf("\n");
 
-B = 3 ;
-printf(B);
+C = (A+B)*2;
+printf("C: %i", C);
+printf("\n");
 
-C = (A+B)*2 ;
-printf(C);
+D = A+B*2;
+printf("D: %i", D);
+printf("\n");
 
-D = A+B*2 ;
-printf(D);
+E = A;
+printf("E: %i", E);
+printf("\n");
 
-E = A ;
-printf(E);
+F = A;
+printf("F: %i", F);
+printf("\n");
 
-F = A ;
-printf(F);
-
-A = B ;
-printf(A);
+A = B;
+printf("A: %i", A);
+printf("\n");
 
 B = F ;
-printf(B);
+printf("F: %i", F);
+printf("\n");
+
+}
