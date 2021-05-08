@@ -21,4 +21,5 @@ int main(){
     printf("El cubo de %f es: %.2f\n", num, cubedNum);
 
     return(0);
+    
 }

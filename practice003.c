@@ -7,7 +7,7 @@ int main(){
 
     float listPrice;
 
-    printf("Por favor, ingrese el precio de lista: \n", 163);
+    printf("Por favor, ingrese el precio de lista: \n");
     scanf("%f", &listPrice);
 
     float listPriceDiscount = listPrice-(listPrice/10);;
