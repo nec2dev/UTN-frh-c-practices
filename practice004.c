@@ -1,15 +1,13 @@
 /*Solicite al usuario que ingrese un número entero
-e informe si diciho número es par o impar
-*/
+e informe si diciho número es par o impar*/
 
 #include <stdio.h>
-#include <math.h>
 
 int main() {
 
     int num;
    
-    printf("Por favor, Ingrese un n%cmero enterol\n", 163);
+    printf("Por favor, Ingrese un n%cmero entero\n", 163);
     scanf("%i", &num);
 
     if(num%2==0){
