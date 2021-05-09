@@ -20,6 +20,5 @@ int main() {
     }else{
         printf("Los n%cmeros ingresados son iguales", 163);
     }
-
-   return 0;
+    return 0;
 }; 
