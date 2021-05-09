@@ -1,22 +1,22 @@
-
+/*Solicite al usuario que ingrese un número entero
+e informe si diciho número es par o impar
+*/
 
 #include <stdio.h>
 #include <math.h>
 
 int main() {
 
-    long int segundos, horas;
-    int minutos, segundosfinal;
+    int num;
    
-    printf("Por favor, Ingrese la cantidad de segundos\n");
-    scanf("%i", &segundos);
+    printf("Por favor, Ingrese un n%cmero enterol\n", 163);
+    scanf("%i", &num);
 
-    horas = segundos/3600;
-    //minutos = (segundos-horas*3600)/60;
-    minutos = (segundos%3600)/60;
-    segundosfinal = (segundos%3600)%60;
-
-    printf("%i seg. expresados en horas, minutos y segundos= %i:%i:%i.", segundos, horas, minutos, segundosfinal);
+    if(num%2==0){
+        printf("el n%cmero ingresado es par", 163);
+    }else{
+        printf("el n%cmero ingresado es impar", 163);
+    }
 
    return 0;
 }; 
