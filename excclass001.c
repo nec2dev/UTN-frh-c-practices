@@ -1,4 +1,5 @@
-
+/*4. dada una cantidad de segundos, conviertirlas en horas, 
+minutos y segundos.*/
 
 #include <stdio.h>
 #include <math.h>
@@ -19,4 +20,4 @@ int main() {
     printf("%i seg. expresados en horas, minutos y segundos= %i:%i:%i.", segundos, horas, minutos, segundosfinal);
 
    return 0;
-}; 
+};  
