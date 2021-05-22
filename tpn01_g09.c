@@ -23,7 +23,8 @@ de avión es:
 #include <stdio.h>
 
 int main() {
-
+    int regnum, passnum, planetype;
+    float flightdistance, 
     
     
     return 0;
