@@ -5,24 +5,25 @@ e informar su tipo (escaleno, equilatero, isóceles*/
 
 int main() {
 
-    float l1, l2, l3;
+    float lado1, lado2, lado3;
    
     printf("Por favor, Ingrese la medida del primer lado del tri%cngulo\n", 160);
-    scanf("%f", &l1);
+    scanf("%f", &lado1);
 
     printf("Ahora, Ingrese la medida del segundo lado del tri%cngulo\n", 160);
-    scanf("%f", &l2);
+    scanf("%f", &lado2);
 
     printf("Por favor, Ingrese la medida del tercer lado del tri%cngulo\n", 160);
-    scanf("%f", &l3);
+    scanf("%f", &lado3);
 
-    if(l1==l2&&l2==l3){
+    if(lado1==lado2&&lado2==lado3){
         printf("El tri%cngulo es equil%ctero",160,160);
-    }else if(l1==l2||l2==l3||l3==l1){
+    }else if(lado1==lado2||lado2==lado3||lado3==lado1){
         printf("El tri%cngulo es is%cceles",160,162);
     }else{
       
         printf("El tri%cngulo es escaleno",160);
     }
+    
     return 0;
 }; 
