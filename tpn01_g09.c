@@ -34,7 +34,30 @@ int main() {
 
     printf("Ingrese la cantidad de pasajeros");
     scanf("%i", &passnum);
+
+    if(regnum>=10000&&regnum<=20000){
+        planetype=1;     
+    }else if (regnum>20000&&regnum<=30000){
+        planetype=2;
+    }else if(regnum>30000&&regnum<=40000){
+        planetype=3;
+    }else{
+        printf("El valor para matr%ccula ingresado es erróneo", 161, 162);
+    }
     
+    switch(planetype){
+    case 1: planecost=passnum*0.535;
+            printf("El costo generado por el vuelo Cessna matr%ccula %i de %i pasajeros es de: u$s%f", 161, regnum, passnum, planecost);
+    break;
+    case 2: planecost=passnum*49.665;
+            printf("El costo generado por el vuelo Boeing matr%ccula %i de %i pasajeros es de: u$s%f", 161, regnum, passnum, planecost);
+    break;
+    case 3: planecost=passnum*10.464;
+            printf("El costo generado por el vuelo Airbus matr%ccula %i de %i pasajeros es de: u$s%f", 161, regnum, passnum, planecost);
+    break;
+    default: printf("El día no existe");
+    }
+    getch();
     
     return 0;
 }; 
