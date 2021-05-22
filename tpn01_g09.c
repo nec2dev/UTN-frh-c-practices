@@ -4,7 +4,7 @@ tenecientes a una campaña de chárter
 Etapa 1: Estructura secuencial y Estructura de desición
 Al acceder al sistema el usuario debe ingresar:
     *Número de matrícula
-    *Distancia del vuel a realizar
+    *Distancia del vuelo a realizar
     *Cantidad de pasajeros
 Aquellos valores ingresados erróneamente deben ser in-
 formados por pantalla. A saber:
@@ -24,7 +24,16 @@ de avión es:
 
 int main() {
     int regnum, passnum, planetype;
-    float flightdistance, 
+    float flightdistance, planecost;
+
+    printf("Ingrese el n%amero de matr%ccula", 163, 161);
+    scanf("%i", &regnum);
+
+    printf("Ingrese la distancia de vuelo a realizar (en km)");
+    scanf("%f", &flightdistance);
+
+    printf("Ingrese la cantidad de pasajeros");
+    scanf("%i", &passnum);
     
     
     return 0;
