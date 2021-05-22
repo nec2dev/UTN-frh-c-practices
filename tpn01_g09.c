@@ -55,7 +55,7 @@ int main() {
     case 3: planecost=passnum*10.464;
             printf("El costo generado por el vuelo Airbus matr%ccula %i de %i pasajeros es de: u$s %f", 161, regnum, passnum, planecost);
     break;
-    default: printf("El día no existe");
+    default: printf("Una falla en el ingreso de los datos hizo imposible presupuestar el costo del vuelo");//Cambiar el default!!
     }
     
     return 0;
