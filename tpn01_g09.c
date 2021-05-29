@@ -46,14 +46,14 @@ int main() {
     }
     
     switch(planetype){
-    case 1: planecost=passnum*0.535;
-            printf("El costo generado por el vuelo Cessna matr%ccula %i de %i pasajeros es de: u$s %f", 161, regnum, passnum, planecost);
+    case 1: planecost=flightdistance*0.535;
+            printf("El costo generado por el vuelo Cessna matr%ccula %i es de: u$s %f", 161, regnum, planecost);
     break;
-    case 2: planecost=passnum*49.665;
-            printf("El costo generado por el vuelo Boeing matr%ccula %i de %i pasajeros es de: u$s %f", 161, regnum, passnum, planecost);
+    case 2: planecost=flightdistance*49.665;
+            printf("El costo generado por el vuelo Boeing matr%ccula %i  es de: u$s %f", 161, regnum, planecost);
     break;
-    case 3: planecost=passnum*10.464;
-            printf("El costo generado por el vuelo Airbus matr%ccula %i de %i pasajeros es de: u$s %f", 161, regnum, passnum, planecost);
+    case 3: planecost=flightdistance*10.464;
+            printf("El costo generado por el vuelo Airbus matr%ccula %i es de: u$s %f", 161, regnum, planecost);
     break;
     default: printf("Una falla en el ingreso de los datos hizo imposible presupuestar el costo del vuelo");//Cambiar el default!!
     }
