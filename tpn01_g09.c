@@ -42,7 +42,7 @@ int main() {
     }else if(regnum>30000&&regnum<=40000){
         planetype=3;
     }else{
-        printf("El valor para matr%ccula ingresado es erróneo", 161, 162);
+        printf("El valor para matr%ccula ingresado es err%cneo\n", 161, 162);
     }
     
     switch(planetype){
@@ -55,7 +55,7 @@ int main() {
     case 3: planecost=flightdistance*10.464;
             printf("El costo generado por el vuelo Airbus matr%ccula %i es de: u$s %f", 161, regnum, planecost);
     break;
-    default: printf("Una falla en el ingreso de los datos hizo imposible presupuestar el costo del vuelo");//Cambiar el default!!
+    default: printf("Por favor ingrese un n%cmero de matr%ccula v%clido", 163, 161, 160);
     }
     
     return 0;
