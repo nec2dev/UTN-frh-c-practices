@@ -7,35 +7,35 @@ int main() {
 int A, B, C, D, E, F;
 
 A = 5;
-printf("A: %i", A);
+printf("A: %d", A);
 printf("\n");
 
 B = 3;
-printf("B: %i", B);
+printf("B: %d", B);
 printf("\n");
 
 C = (A+B)*2;
-printf("C: %i", C);
+printf("C: %d", C);
 printf("\n");
 
 D = A+B*2;
-printf("D: %i", D);
+printf("D: %d", D);
 printf("\n");
 
 E = A;
-printf("E: %i", E);
+printf("E: %d", E);
 printf("\n");
 
 F = A;
-printf("F: %i", F);
+printf("F: %d", F);
 printf("\n");
 
 A = B;
-printf("A: %i", A);
+printf("A: %d", A);
 printf("\n");
 
 B = F ;
-printf("F: %i", F);
+printf("F: %d", F);
 printf("\n");
 
 }

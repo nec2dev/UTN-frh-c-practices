@@ -27,13 +27,13 @@ int main() {
     float flightdistance, planecost;
 
     printf("Ingrese el n%cmero de matr%ccula\n", 163, 161);
-    scanf("%i", &regnum);
+    scanf("%d", &regnum);
 
     printf("Ingrese la distancia de vuelo a realizar (en km)\n");
     scanf("%f", &flightdistance);
 
     printf("Ingrese la cantidad de pasajeros\n");
-    scanf("%i", &passnum);
+    scanf("%d", &passnum);
 
     if(regnum>=10000&&regnum<=20000){
         planetype=1;     
@@ -47,13 +47,13 @@ int main() {
     
     switch(planetype){
     case 1: planecost=flightdistance*0.535;
-            printf("El costo generado por el vuelo Cessna matr%ccula %i es de: u$s %f", 161, regnum, planecost);
+            printf("El costo generado por el vuelo Cessna matr%ccula %d es de: u$s %f", 161, regnum, planecost);
     break;
     case 2: planecost=flightdistance*49.665;
-            printf("El costo generado por el vuelo Boeing matr%ccula %i  es de: u$s %f", 161, regnum, planecost);
+            printf("El costo generado por el vuelo Boeing matr%ccula %d  es de: u$s %f", 161, regnum, planecost);
     break;
     case 3: planecost=flightdistance*10.464;
-            printf("El costo generado por el vuelo Airbus matr%ccula %i es de: u$s %f", 161, regnum, planecost);
+            printf("El costo generado por el vuelo Airbus matr%ccula %d es de: u$s %f", 161, regnum, planecost);
     break;
     default: printf("Por favor ingrese un n%cmero de matr%ccula v%clido", 163, 161, 160);
     }

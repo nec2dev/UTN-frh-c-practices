@@ -8,7 +8,7 @@ int main() {
     int num;
    
     printf("Por favor, Ingrese un n%cmero entero\n", 163);
-    scanf("%i", &num);
+    scanf("%d", &num);
 
     if(num%2==0){
         printf("el n%cmero ingresado es par", 163);
